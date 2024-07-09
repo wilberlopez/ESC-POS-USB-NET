@@ -1,6 +1,5 @@
 ﻿using ESC_POS_USB_NET.Enums;
-using ESC_POS_USB_NET.EpsonCommands;
-using ESC_POS_USB_NET.Extensions;
+using ESC_POS_USB_NET.Commands;
 using ESC_POS_USB_NET.Helper;
 using ESC_POS_USB_NET.Interfaces.Command;
 using ESC_POS_USB_NET.Interfaces.Printer;

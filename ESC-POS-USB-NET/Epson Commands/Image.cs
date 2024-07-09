@@ -5,7 +5,7 @@ using ESC_POS_USB_NET.Interfaces.Command;
 using System.Drawing;
 using ESC_POS_USB_NET.Extensions;
 
-namespace ESC_POS_USB_NET.EpsonCommands
+namespace ESC_POS_USB_NET.Commands
 {
     public class Image : IImage
     {
