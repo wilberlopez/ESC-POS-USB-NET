@@ -17,6 +17,7 @@
         IInitializePrint InitializePrint { get; set; }
         byte[] Separator(char speratorChar = '-');
         byte[] AutoTest();
+        byte[] DisableChineseCharacters();
     }
 }
 

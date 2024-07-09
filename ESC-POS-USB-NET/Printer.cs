@@ -116,6 +116,11 @@ namespace ESC_POS_USB_NET.Printer
             Append(_command.AutoTest());
         }
 
+        public void DisableChineseCharacters()
+        {
+            Append(_command.DisableChineseCharacters());
+        }
+
         public void TestPrinter()
         {
             Append("NORMAL - 48 COLUMNS");

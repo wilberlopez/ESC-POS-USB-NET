@@ -47,6 +47,11 @@ namespace ESC_POS_USB_NET.Commands
             return new byte[] { 29, 40, 65, 2, 0, 0, 2 };
         }
 
+        public byte[] DisableChineseCharacters()
+        {
+            return new byte[] { 0x1C, 0x2E };
+        }
+
     }
 }
 
