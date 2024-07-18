@@ -297,6 +297,7 @@ namespace ESC_POS_USB_NET.Printer
         {
             Append(_command.Image.Print(image, isScale));
         }
+
         public void NormalLineHeight()
         {
             Append(_command.LineHeight.Normal());
@@ -305,6 +306,16 @@ namespace ESC_POS_USB_NET.Printer
         public void SetLineHeight(byte height)
         {
             Append(_command.LineHeight.SetLineHeight(height));
+        }
+
+        public void FontNormalSize()
+        {
+            Append(_command.FontSize.Normal());
+        }
+
+        public void FontCustomSize(int width, int height)
+        {
+            Append(_command.FontSize.CustomSize(width, height));
         }
     }
 }

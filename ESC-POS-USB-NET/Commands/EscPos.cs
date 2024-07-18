@@ -16,6 +16,7 @@ namespace ESC_POS_USB_NET.Commands
         public IInitializePrint InitializePrint { get; set; }
         public IImage Image { get; set; }
         public ILineHeight  LineHeight { get; set; }
+        public IFontSize FontSize { get; set; }
         public int ColsNomal => 48;
         public int ColsCondensed => 64;
         public int ColsExpanded => 24;        
@@ -31,6 +32,7 @@ namespace ESC_POS_USB_NET.Commands
             BarCode = new BarCode();
             Image = new Image();
             LineHeight = new LineHeight();
+            FontSize = new FontSize();
             InitializePrint = new InitializePrint();
         }
 
